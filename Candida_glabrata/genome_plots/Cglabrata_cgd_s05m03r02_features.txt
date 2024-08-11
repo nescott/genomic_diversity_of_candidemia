@@ -1,0 +1,18 @@
+chr	Feature	start	end
+ChrA_C_glabrata_CBS138	Centromere	91899	92008
+ChrB_C_glabrata_CBS138	Centromere	454134	454245
+ChrC_C_glabrata_CBS138	Centromere	455789	455898
+ChrD_C_glabrata_CBS138	Repeat region	500369	502123
+ChrD_C_glabrata_CBS138	Centromere	564262	564373
+ChrE_C_glabrata_CBS138	Centromere	263239	263348
+ChrF_C_glabrata_CBS138	Centromere	249266	249375
+ChrG_C_glabrata_CBS138	Centromere	74320	74432
+ChrG_C_glabrata_CBS138	Repeat region	691233	697799
+ChrH_C_glabrata_CBS138	Centromere	959232	959343
+ChrI_C_glabrata_CBS138	Centromere	794681	794791
+ChrJ_C_glabrata_CBS138	Centromere	236988	237098
+ChrK_C_glabrata_CBS138	Centromere	259392	259501
+ChrL_C_glabrata_CBS138	Centromere	994810	994919
+ChrL_C_glabrata_CBS138	rRNA	1475450	1516701
+ChrM_C_glabrata_CBS138	Centromere	1059352	1059462
+ChrM_C_glabrata_CBS138	rRNA	1412458	1453709

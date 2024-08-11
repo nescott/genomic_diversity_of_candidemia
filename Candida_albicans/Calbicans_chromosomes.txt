@@ -1,0 +1,9 @@
+Ca19-mtDNA:1-40420
+Ca21chr1_C_albicans_SC5314:1-3188548
+Ca21chr2_C_albicans_SC5314:1-2232035
+Ca21chr3_C_albicans_SC5314:1-1799406
+Ca21chr4_C_albicans_SC5314:1-1603443
+Ca21chr5_C_albicans_SC5314:1-1190928
+Ca21chr6_C_albicans_SC5314:1-1033530
+Ca21chr7_C_albicans_SC5314:1-949616
+Ca21chrR_C_albicans_SC5314:1-2286389

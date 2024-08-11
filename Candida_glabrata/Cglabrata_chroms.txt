@@ -1,0 +1,14 @@
+ChrA_C_glabrata_CBS138:1-527800
+ChrB_C_glabrata_CBS138:1-512655
+ChrC_C_glabrata_CBS138:1-594526
+ChrD_C_glabrata_CBS138:1-667900
+ChrE_C_glabrata_CBS138:1-707423
+ChrF_C_glabrata_CBS138:1-957515
+ChrG_C_glabrata_CBS138:1-1010292
+ChrH_C_glabrata_CBS138:1-1057388
+ChrI_C_glabrata_CBS138:1-1142525
+ChrJ_C_glabrata_CBS138:1-1247563
+ChrK_C_glabrata_CBS138:1-1307090
+ChrL_C_glabrata_CBS138:1-1528264
+ChrM_C_glabrata_CBS138:1-1465272
+mito_C_glabrata_CBS138:1-20063
