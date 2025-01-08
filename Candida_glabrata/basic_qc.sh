@@ -25,7 +25,7 @@ module load fastqc/0.11.9
 module load qualimap
 module load multiqc
 
-# raw fastq file qc
+# trimmed fastq file qc
 find "$temp_dir" -name "*trimmed_*P.fq" -exec fastqc  -t 8 "$temp_dir" {} \;
 
 # bam qc
@@ -34,5 +34,4 @@ find "$bam_dir" -name "*.bam" \
 -exec qualimap bamqc -bam {} -outdir $temp_dir/{} --java-mem-size=4G  \;
 
 # multiqc
-
 multiqc "${temp_dir}" "${logs_dir}" "${bam_dir}" -o logs -n "$file_name"

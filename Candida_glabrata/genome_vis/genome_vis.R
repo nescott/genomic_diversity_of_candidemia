@@ -1,13 +1,7 @@
 ## ---------------------------
 ## Script name: genome_vis.R
-##
-## Purpose of script: Calculate relative depth and SNP density for a given sample,
-## and then plot a genome-scale view.
-##
+## Purpose: Plot genome-wide view of (rolling) mean read depth
 ## Author: Nancy Scott
-##
-## Date Created: 2023-03-29
-##
 ## Email: scot0854@umn.edu
 ## ---------------------------
 ## Notes: Adapted from https://github.com/berman-lab/ymap
