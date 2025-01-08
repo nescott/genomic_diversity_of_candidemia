@@ -26,6 +26,7 @@ module load fastqc
 module load qualimap
 module load multiqc
 
+# fastqc on bbduk-trimmed files
 find "$fastq_dir" -name "*trimmed_*P.fq" -exec fastqc  -t 8 -o "$temp_dir" {} \;
 
 # bam qc
@@ -34,7 +35,4 @@ find "$bam_dir" -name "*.bam" \
   -exec qualimap bamqc -bam {} -outdir $temp_dir/{} --java-mem-size=4G  \;
 
 # multiqc
-
-multiqc /scratch.global/scot0854/calbicans \
-    logs \
-    -n "$file_name"
+multiqc /scratch.global/scot0854/calbicans logs -n "$file_name"

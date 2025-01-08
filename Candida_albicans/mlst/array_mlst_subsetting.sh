@@ -1,7 +1,5 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=1
 #SBATCH --mem=1gb
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=scot0854@umn.edu

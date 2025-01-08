@@ -8,7 +8,7 @@
 #SBATCH -p msismall,msilarge
 #SBATCH -o %A_%a.out
 #SBATCH -e %A_%a.err
-#SBATCH --array=2-16,18-100
+#SBATCH --array=1-100
 
 set -ue
 set -o pipefail

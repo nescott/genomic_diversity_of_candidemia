@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
 #SBATCH --mem=20gb
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=scot0854@umn.edu
@@ -23,7 +22,9 @@ region_list=Calbicans_chroms.txt
 
 chr=$(awk -v val="$line" 'NR == val { print $0}' $region_list)
 
-#Load modules
+mkdir -p chr_vcf
+
+# Load modules
 module load samtools/1.10
 module load freebayes/20180409
 

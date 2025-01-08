@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
 #SBATCH --mem=10gb
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=scot0854@umn.edu
@@ -87,7 +86,8 @@ bcftools view -i \
 java -Xmx9g -jar "${snpeff}" -c "${snpeff_config}" "${snpeff_db}" \
 "${bcftools_out}" >  "${annotate_vcf}"
 
-# Subset to biallelic SNPs, output tab-delimited genotype file.
+# Subset to biallelic SNPs, output tab-delimited genotype file,
+# use for multiple correspondence analysis
 module unload bcftools
 module load bcftools/1.9
 
